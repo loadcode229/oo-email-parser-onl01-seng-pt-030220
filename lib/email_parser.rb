@@ -6,8 +6,6 @@
 class EmailAddressParser
   attr_accessor :email_addresses
   def initalize(email)
-    @email_addresses = email
-    @email_addresses.parse(/\w+@+\w+.\w+/)
     
   end
   
