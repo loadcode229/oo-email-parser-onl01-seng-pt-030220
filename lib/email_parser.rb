@@ -12,7 +12,7 @@ class EmailAddressParser
   end
   
   def parse
-    @csv_data.parse(/\w+@+\w+.\w+/)
+    @csv_data.collect
     
   end
 end
