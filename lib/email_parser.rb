@@ -16,8 +16,5 @@ class EmailAddressParser
       address.split(",")
     end
     @csv_data.flatten.uniq
-  end 
-    
-    
   end
 end
