@@ -12,7 +12,8 @@ class EmailAddressParser
   end
   
   def parse
-    @csv_data.collect
+    @csv_data.split.collect do { |address|
+    
     
   end
 end
