@@ -11,7 +11,8 @@ class EmailAddressParser
     @csv_data = csv_data
   end
   
-  def parser(email)
+  def parse
+    @csv_data.parse(/\w+@+\w+.\w+/)
   
   
   
